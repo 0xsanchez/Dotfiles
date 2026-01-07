@@ -1,0 +1,45 @@
+{
+    "reload_config_on_change": true,
+    "reload_style_on_change": true,
+    "position": "top",
+    "height": 35,
+    "margin-top": 20,
+    "margin-left": 20,
+    "margin-right": 20,
+    "margin-bottom": 0,
+    "modules-left": ["hyprland/workspaces","wireplumber"],
+    "modules-center": ["clock"],
+    "modules-right": ["temperature","cpu","memory","network"],
+    "spacing": 15,
+
+    "clock": {
+        "format": "\uf017 {:%H:%M / \udb80\udcf0 %d.%m.%Y}"
+    },
+
+    "memory": {
+        "format": "\uefc5 {used:0.1f}G"
+    },
+
+    "cpu": {
+        "format": "\uf4bc {usage}%"
+    },
+
+    "temperature": {
+        "format": "\udb80\udfc8 {temperatureC}°C"
+    },
+
+    "wireplumber": {
+        "on-click": "pavucontrol"
+    },
+
+    "network": {
+        "format": "\udb80\udc02 {ifname}"
+    },
+
+    "hyprland/workspaces": {
+        "persistent-workspaces": {
+            "*": 9
+        }
+    }
+
+}
