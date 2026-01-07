@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Kanagawa Wave",
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.location": "hidden",
+    "window.menuBarVisibility": "hidden",
+    "window.commandCenter": false,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.enablePreview": false,
+}
